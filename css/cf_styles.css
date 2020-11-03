@@ -1,0 +1,64 @@
+
+/* Jeff Bohn 10/30/2020 */
+
+
+@font-face {
+    font-family: "pacifico";
+    src: url('pacifico-webfont.woff2') format('woff2'),
+         url('pacifico-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+ }
+h1{
+    font-family: "Lobster", Times, serif;
+    font-size: 3em;
+}
+h2{
+    font-family: "pacifico", Times, serif;
+    font-weight: normal;
+    font-style: italic;
+   
+}
+body{
+    background-color: #B8D1EB;
+    color: #000000;
+    font-family: "Times New Roman", Times, serif;
+}
+main{
+    background-color: #C5A98B;
+    padding: 10px;
+}
+ul{
+    list-style: none;
+}
+ul.tomato {
+    list-style-image: url('tomato.png');
+    
+}
+#outerwrapper {
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;  
+} 
+
+.floatleft { 
+    float: left;
+    margin-right: 3%;
+}
+
+.floatright {
+    float: right;
+    margin-left: 3%;
+}
+main{
+    clear: both;  
+
+}
+footer { 
+    clear: both;
+    font-size: .75em;
+    text-align: center;
+    background-color: #795c34;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
